@@ -1,0 +1,30 @@
+// 设计标注的尺寸是 750px 下的 2x 尺寸，正常使用都需要除以 2
+@hd: 1px;
+@pixelSize: 0.5 * @hd;
+
+//字体字号
+@font-size-content: 26 * @pixelSize; //常规内容
+@font-size-weak: 22 * @pixelSize; //弱化内容和弱辅助文案
+
+//背景色
+@color-divider-line: #eeeeee; //分割线
+
+//业务色
+@color-ironblack-1: #454955; //铁黑
+
+//图标尺寸
+@icon-size-xs: 36 * @pixelSize; //特小
+@icon-size-sm: 44 * @pixelSize; //小
+@icon-size-md: 56 * @pixelSize; //中
+@icon-size-lg: 64 * @pixelSize; //大
+
+:root {
+  /* 图标尺寸 */
+  --lk-icon-size-xs: @icon-size-xs;
+  --lk-icon-size-sm: @icon-size-sm;
+  --lk-icon-size-md: @icon-size-md;
+  --lk-icon-size-lg: @icon-size-lg;
+
+  /* 背景色 */
+  --lk-color-divider-line: @color-divider-line;
+}
