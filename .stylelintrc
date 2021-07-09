@@ -18,6 +18,7 @@
   "ignoreFiles": [
     "node_modules/**/*",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "**/*.js"
   ]
 }
