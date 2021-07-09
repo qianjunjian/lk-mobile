@@ -1,0 +1,14 @@
+{
+  "name": "@jy-design/mobile-styles",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qianjunjian/lk-mobile.git"
+  },
+  "description": "jy-mobile-styles",
+  "main": "dist/jy-mobile-style.css",
+  "dependencies": {
+    "alipay-style": "^0.1.0",
+    "normalize.css": "^8.0.1"
+  }
+}
