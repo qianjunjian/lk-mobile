@@ -1,8 +1,8 @@
-export default {
-  esm: { type: 'babel' },
-  cjs: { type: 'babel' },
-  pkgs: [
-    'jy-mobile-styles',
-    'jy-mobile',
-  ],
+module.exports = {
+    cssModules: false,
+    extractCSS: true,
+    esm: "babel",
+    cjs: false,
+    umd: false,
+    entry: "src/index.js"
 }

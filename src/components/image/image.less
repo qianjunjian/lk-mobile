@@ -1,0 +1,30 @@
+.dd-image {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+
+    .dd-image-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .dd-image-tip {
+        position: relative;
+        background-color: #f3f3f3;
+        height: 100%;
+        width: 100%;
+
+        &>.icon {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #999;
+            width: 1em;
+            height: 1em;
+            background-image: url(./img/noData.svg);
+            display: inline-block;
+        }
+    }
+}
